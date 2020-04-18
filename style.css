@@ -1,0 +1,29 @@
+.square{
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.grid{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+}
+
+.mole{
+  background-image: url('images/ground.jpg');
+  background-size: cover;
+}
+.hide{
+  display: none;
+}
+.text{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 15rem;
+  color: blue;
+}
